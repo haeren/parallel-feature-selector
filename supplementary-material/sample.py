@@ -1,3 +1,5 @@
+# You can run the program with 4 processes using the following command:
+# mpiexec -n 4 python sample.py
 import parallel_feature_selector as pfs
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB

@@ -1,0 +1,6 @@
+testAccuracy,cvScore,featureCount,subset,featureNames
+1.0,0.9416666666666668,1,0001,petal_width
+1.0,0.95,2,0011,petal_length-petal_width
+1.0,0.95,2,1001,sepal_length-petal_width
+1.0,0.95,3,0111,sepal_width-petal_length-petal_width
+1.0,0.95,3,1011,sepal_length-petal_length-petal_width

@@ -152,7 +152,7 @@ def bruteForce(data, estimator, testSize=0.2, randomState=42, cv=5, topScoreNo=5
                 report = [i, gatheredTimes[i]]
                 writer.writerow(report)
 
-def customSearch():
+def customSearch(): # Other wrapper methods
     pass
 
 def estimatorFromStr(estimatorName): # Returns estimator object based on esimator name string parameter

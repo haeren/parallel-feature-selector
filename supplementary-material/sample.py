@@ -11,4 +11,5 @@ data = pd.read_csv('iris.csv')
 # Sklearn estimator
 estimator = GaussianNB()
 
+# Feature selection using exhaustive search
 pfs.bruteForce(data=data, estimator=estimator)

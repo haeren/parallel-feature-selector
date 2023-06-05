@@ -1,4 +1,6 @@
 # Parallel Feature Selector
+[![DOI](https://zenodo.org/badge/387241932.svg)](https://zenodo.org/badge/latestdoi/387241932)
+
 A feature selection module that works in parallel among the processors
 
 ## Installation

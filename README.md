@@ -81,3 +81,21 @@ When running the script in terminal:
 | dtGini | DecisionTreeClassifier(criterion='gini', random_state = 1) |
 | rfEntropy | RandomForestClassifier(n_estimators=10, criterion='entropy', random_state=1) |
 | rfGini | RandomForestClassifier(n_estimators=10, criterion='gini', random_state=1) |
+
+# Cite
+
+PWFS: A scalable parallel Python module for wrapper feature selection
+
+If you find this code useful in your research, please consider citing [our paper](https://dergipark.org.tr/en/pub/jiens/issue/90495/1639780):
+
+```
+@article{article,
+author = {Eren, Hakan Alp and Okyay, Savaş and Adar, Nihat},
+year = {2025},
+pages = {704-719},
+title = {PWFS: A scalable parallel Python module for wrapper feature selection},
+volume = {5},
+journal = {Journal of Innovative Engineering and Natural Science},
+doi = {10.61112/jiens.1639780}
+}
+```
